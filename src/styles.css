@@ -1,6 +1,7 @@
 @import "tailwindcss" source(none);
 @source "../src";
 @import "tw-animate-css";
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap");
 
 @custom-variant dark (&:is(.dark *));
 
@@ -62,9 +63,22 @@
 }
 
 :root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
+  --radius: 1rem;
+  --background: oklch(0.14 0.03 280);
+  --foreground: oklch(0.98 0.01 280);
+  --brand-violet: oklch(0.65 0.25 295);
+  --brand-cyan: oklch(0.78 0.18 200);
+  --brand-pink: oklch(0.72 0.22 350);
+  --brand-amber: oklch(0.82 0.16 75);
+  --glass-bg: oklch(1 0 0 / 0.06);
+  --glass-border: oklch(1 0 0 / 0.12);
+  --glass-highlight: oklch(1 0 0 / 0.18);
+  --gradient-aurora: linear-gradient(135deg, oklch(0.65 0.25 295), oklch(0.72 0.22 350) 45%, oklch(0.78 0.18 200));
+  --gradient-glow: radial-gradient(circle at 30% 20%, oklch(0.65 0.25 295 / 0.4), transparent 60%), radial-gradient(circle at 80% 70%, oklch(0.78 0.18 200 / 0.35), transparent 60%);
+  --shadow-glass: 0 8px 32px 0 oklch(0 0 0 / 0.4), inset 0 1px 0 0 oklch(1 0 0 / 0.1);
+  --shadow-glow: 0 0 60px oklch(0.65 0.25 295 / 0.5);
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.129 0.042 264.695);
   --popover: oklch(1 0 0);
