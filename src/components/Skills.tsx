@@ -3,7 +3,9 @@ import { motion } from "framer-motion";
 const groups = [
   { title: "Frontend", items: ["Angular", "React.js", "Next.js", "TypeScript", "Tailwind", "Webflow"] },
   { title: "Backend", items: ["Node.js", "Express.js", "Laravel", "PHP", "REST APIs", "Microservices"] },
+  { title: "WordPress", items: ["Custom Themes", "Plugin Development", "ACF", "Gravity Forms", "WooCommerce", "Elementor"] },
   { title: "AI & Cloud", items: ["Azure Foundry", "AI/ML Models", "SAP API", "Salesforce SFDC", "Docker", "Kubernetes"] },
+  { title: "Automation", items: ["Make.com", "n8n", "Zapier", "Webhooks", "API Orchestration"] },
   { title: "Databases", items: ["MongoDB", "MySQL", "Indexing", "Aggregation", "Caching"] },
 ];
 
