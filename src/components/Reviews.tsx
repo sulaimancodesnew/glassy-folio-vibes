@@ -38,10 +38,7 @@ export function Reviews() {
           </div>
         </div>
 
-        <div className="mb-8 glass-strong rounded-3xl border-dashed p-8 text-center">
-          <Video className="mx-auto mb-3 text-[oklch(0.78_0.18_200)]" size={28} />
-          <p className="font-mono text-sm text-muted-foreground">Video reviews coming soon — share them anytime and they'll slot right in here.</p>
-        </div>
+
 
         <div className="columns-1 gap-5 sm:columns-2 lg:columns-3">
           {reviews.map((r, i) => (
