@@ -10,6 +10,9 @@ import { Automation } from "@/components/Automation";
 import { Process } from "@/components/Process";
 import { Experience } from "@/components/Experience";
 import { Reviews } from "@/components/Reviews";
+import { Industries } from "@/components/Industries";
+import { Achievements } from "@/components/Achievements";
+import { TechStack } from "@/components/TechStack";
 import { FAQ } from "@/components/FAQ";
 import { Contact } from "@/components/Contact";
 
@@ -34,10 +37,13 @@ function Index() {
       <About />
       <Specialties />
       <Skills />
+      <TechStack />
       <Services />
       <Automation />
       <Process />
+      <Industries />
       <Experience />
+      <Achievements />
       <Reviews />
       <FAQ />
       <Contact />
