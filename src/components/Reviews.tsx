@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Star, Video } from "lucide-react";
+import { Star } from "lucide-react";
 
 const reviews = [
   { user: "voltronimo", country: "🇺🇸 United States", text: "Sulaiman did a fantastic job with our website maintenance! His attention to expectations and delivered a bug-free result. His politeness and language be engaging him again!" },
