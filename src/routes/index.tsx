@@ -37,10 +37,13 @@ function Index() {
       <About />
       <Specialties />
       <Skills />
+      <TechStack />
       <Services />
       <Automation />
       <Process />
+      <Industries />
       <Experience />
+      <Achievements />
       <Reviews />
       <FAQ />
       <Contact />
