@@ -23,7 +23,7 @@ export function Nav() {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "py-2" : "py-4"}`}>
       <div className="mx-auto max-w-6xl px-4">
-        <nav className="glass-strong flex items-center justify-between rounded-2xl px-5 py-3">
+        <nav className={`flex items-center justify-between rounded-2xl px-5 py-3 border border-white/10 backdrop-blur-2xl transition-colors duration-300 ${scrolled ? "bg-[oklch(0.14_0.03_280/0.85)] shadow-lg shadow-black/30" : "bg-white/5"}`}>
           <a href="#top" className="font-mono text-sm font-bold tracking-tight">
             <span className="text-aurora">SM</span>
             <span className="text-foreground">.dev</span>
