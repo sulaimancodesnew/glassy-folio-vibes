@@ -34,7 +34,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="text-xs text-muted-foreground">Email me</p>
-                    <p className="font-mono text-sm font-semibold sm:text-base">msulaiman729@gmail.com</p>
+                    <p className="font-mono text-xs font-semibold break-all sm:text-base">msulaiman729@gmail.com</p>
                   </div>
                 </div>
                 <ArrowUpRight className="opacity-50 transition group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:opacity-100" size={20} />
