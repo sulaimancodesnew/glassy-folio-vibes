@@ -3,7 +3,7 @@ import { Mail, MessageCircle, ArrowUpRight } from "lucide-react";
 
 export function Contact() {
   return (
-    <section id="contact" className="relative px-4 py-24">
+    <section id="contact" className="relative px-4 py-14 sm:py-20 md:py-24">
       <div className="mx-auto max-w-5xl">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

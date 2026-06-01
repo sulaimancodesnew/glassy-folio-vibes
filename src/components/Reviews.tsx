@@ -18,7 +18,7 @@ const reviews = [
 
 export function Reviews() {
   return (
-    <section id="reviews" className="relative px-4 py-24">
+    <section id="reviews" className="relative px-4 py-14 sm:py-20 md:py-24">
       <div className="mx-auto max-w-6xl">
         <div className="mb-12 flex flex-wrap items-end justify-between gap-4">
           <div>

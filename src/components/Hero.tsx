@@ -5,7 +5,7 @@ import { TiltCard } from "./TiltCard";
 
 export function Hero() {
   return (
-    <section id="top" className="relative flex min-h-screen items-center justify-center px-4 pt-32 pb-20">
+    <section id="top" className="relative flex min-h-screen items-center justify-center px-4 pt-24 pb-12 sm:pt-28 sm:pb-16 md:pt-32 md:pb-20">
       <div className="mx-auto grid w-full max-w-6xl items-center gap-12 lg:grid-cols-[1.2fr_1fr]">
         <div>
           <motion.div
