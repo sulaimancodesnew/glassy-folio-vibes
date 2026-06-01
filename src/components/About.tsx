@@ -9,7 +9,7 @@ const cards = [
 
 export function About() {
   return (
-    <section id="about" className="relative px-4 py-24">
+    <section id="about" className="relative px-4 py-14 sm:py-20 md:py-24">
       <div className="mx-auto max-w-6xl">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

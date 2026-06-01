@@ -5,8 +5,8 @@ import { TiltCard } from "./TiltCard";
 
 export function Hero() {
   return (
-    <section id="top" className="relative flex min-h-screen items-center justify-center px-4 pt-32 pb-20">
-      <div className="mx-auto grid w-full max-w-6xl items-center gap-12 lg:grid-cols-[1.2fr_1fr]">
+    <section id="top" className="relative flex min-h-[100svh] items-center justify-center px-4 pt-24 pb-12 sm:pt-28 sm:pb-16 md:pt-32 md:pb-20">
+      <div className="mx-auto grid w-full max-w-6xl items-center gap-8 sm:gap-12 lg:grid-cols-[1.2fr_1fr]">
         <div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -20,7 +20,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-5xl font-bold leading-[0.95] tracking-tight sm:text-6xl lg:text-7xl"
+            className="text-[2.5rem] font-bold leading-[0.95] tracking-tight sm:text-6xl lg:text-7xl"
           >
             Sulaiman
             <br />
@@ -76,7 +76,7 @@ export function Hero() {
         >
           <TiltCard intensity={15} className="relative">
             <div className="absolute -inset-4 animate-spin-slow rounded-full bg-gradient-to-r from-[oklch(0.65_0.25_295)] via-[oklch(0.72_0.22_350)] to-[oklch(0.78_0.18_200)] opacity-50 blur-2xl" />
-            <div className="glass-strong relative aspect-square w-72 overflow-hidden rounded-[2.5rem] sm:w-80 lg:w-96">
+            <div className="glass-strong relative aspect-square w-60 overflow-hidden rounded-[2rem] sm:w-80 sm:rounded-[2.5rem] lg:w-96">
               <img src={portrait} alt="Sulaiman Majeed" className="h-full w-full object-cover" width={384} height={384} />
               <div className="absolute inset-0 bg-gradient-to-t from-[oklch(0.14_0.03_280)] via-transparent to-transparent" />
               <div className="absolute bottom-4 left-4 right-4">
@@ -89,10 +89,10 @@ export function Hero() {
               </div>
             </div>
           </TiltCard>
-          <div className="glass absolute -bottom-4 -left-6 rotate-[-8deg] rounded-2xl px-3 py-2 text-xs font-mono shadow-xl">
+          <div className="glass absolute -bottom-3 -left-2 rotate-[-8deg] rounded-2xl px-2.5 py-1.5 text-[10px] font-mono shadow-xl sm:-left-6 sm:px-3 sm:py-2 sm:text-xs">
             🥇 Gold Medalist · 3.72 CGPA
           </div>
-          <div className="glass absolute -top-4 -right-4 rotate-[6deg] rounded-2xl px-3 py-2 text-xs font-mono shadow-xl">
+          <div className="glass absolute -top-3 -right-2 rotate-[6deg] rounded-2xl px-2.5 py-1.5 text-[10px] font-mono shadow-xl sm:-right-4 sm:px-3 sm:py-2 sm:text-xs">
             ⚡ MEAN · MERN · AI
           </div>
         </motion.div>

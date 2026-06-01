@@ -10,7 +10,7 @@ const jobs = [
 
 export function Experience() {
   return (
-    <section id="experience" className="relative px-4 py-24">
+    <section id="experience" className="relative px-4 py-14 sm:py-20 md:py-24">
       <div className="mx-auto max-w-5xl">
         <div className="mb-12">
           <p className="font-mono text-sm text-[oklch(0.78_0.18_200)]">// timeline</p>

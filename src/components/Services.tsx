@@ -12,7 +12,7 @@ const services = [
 
 export function Services() {
   return (
-    <section id="services" className="relative px-4 py-24">
+    <section id="services" className="relative px-4 py-14 sm:py-20 md:py-24">
       <div className="mx-auto max-w-6xl">
         <div className="mb-12 max-w-2xl">
           <p className="font-mono text-sm text-[oklch(0.82_0.16_75)]">// services</p>
